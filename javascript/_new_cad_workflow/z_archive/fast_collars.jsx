@@ -1,0 +1,1 @@
+﻿function moveCollars(){	var docRef = app.activeDocument;	var layers = docRef.layers;	var groups = layers.getByName("To Be Placed").groupItems;	for(var a=0; a<groups.length;a++){		if(groups[a].height<25){			groups[a].left = groups[a].left - 450;			groups[a].top = groups[a].top + 150;		}	}}moveCollars();

@@ -1,0 +1,1 @@
+﻿#target illustrator-18function swapThruCutSwatch(){    var docRef = app.activeDocument;    var swatches = docRef.swatches;    var tC = swatches.getByName("Thru-cut");    tC.name = tC.name.split('Thru-cut').join('cutline');}swapThruCutSwatch();

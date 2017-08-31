@@ -1,0 +1,1 @@
+﻿#target Illustrator// ++ insert your path here, or a file picker prompt ++ var theFile = new File('/Volumes/customization/library/colors/Boombah swatches.ai');var openOpt = new OpenOptions();// ++ get swatches ++openOpt.openAs=LibraryType.SWATCHES;open(theFile,null,openOpt);
